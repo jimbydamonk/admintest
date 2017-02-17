@@ -1,0 +1,4 @@
+package: github.com/jimbydamonk/admintest
+import:
+
+- package: github.com/Sirupsen/logrus
