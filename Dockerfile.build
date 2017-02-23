@@ -1,4 +1,4 @@
-FROM alpine
+FROM golang:alpine
 
 LABEL app="build-admintest"
 LABEL REPO="https://github.com/jimbydamonk/admintest"
@@ -13,4 +13,4 @@ ENV PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 WORKDIR /gopath/src/github.com/jimbydamonk/admintest
 
-CMD ["make","build-alpine"]
+CMD ["make","build-static"]

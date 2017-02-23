@@ -1,4 +1,4 @@
-FROM apline/latest
+FROM golang:alpine
 
 ARG GIT_COMMIT
 ARG VERSION
